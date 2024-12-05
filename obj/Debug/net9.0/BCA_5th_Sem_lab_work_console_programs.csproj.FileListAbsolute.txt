@@ -1,0 +1,14 @@
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\bin\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.exe
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\bin\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.deps.json
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\bin\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.runtimeconfig.json
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\bin\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.dll
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\bin\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.pdb
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\obj\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.GeneratedMSBuildEditorConfig.editorconfig
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\obj\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.AssemblyInfoInputs.cache
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\obj\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.AssemblyInfo.cs
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\obj\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.csproj.CoreCompileInputs.cache
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\obj\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.dll
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\obj\Debug\net9.0\refint\BCA_5th_Sem_lab_work_console_programs.dll
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\obj\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.pdb
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\obj\Debug\net9.0\BCA_5th_Sem_lab_work_console_programs.genruntimeconfig.cache
+F:\DOT_NET_PROJECTS\dotnet_core_C#\console\BCA_5th_Sem_lab_work_console_programs\obj\Debug\net9.0\ref\BCA_5th_Sem_lab_work_console_programs.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "BCA_5th_Sem_lab_work_console_programs/1.0.0": {
+        "runtime": {
+          "BCA_5th_Sem_lab_work_console_programs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BCA_5th_Sem_lab_work_console_programs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
