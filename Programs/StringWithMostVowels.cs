@@ -4,51 +4,44 @@
     {
         public static void Execute()
         {
-            try
+            int rows = 2;
+            int columns = 2;
+            string[,] strings = new string[rows, columns];
+            Console.WriteLine("Enter strings for a 2D array:");
+            for (int i = 0; i < rows; i++)
             {
-                Console.WriteLine("Enter the number of strings:");
-                int n = int.Parse(Console.ReadLine() ?? "");
-                string[] strings = new string[n];
-
-                for (int i = 0; i < n; i++)
+                for (int j = 0; j < columns; j++)
                 {
-                    Console.WriteLine($"Enter string {i + 1}:");
-                    strings[i] = Console.ReadLine() ?? "";
+                    Console.Write($"Enter string for position [{i},{j}]: ");
+                    strings[i, j] = Console.ReadLine() ?? "";
                 }
-
-                string stringWithMostVowels = FindStringWithMostVowels(strings);
-                Console.WriteLine($"String with the most vowels: {stringWithMostVowels}");
             }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-            }
-        }
 
-        private static string FindStringWithMostVowels(string[] strings)
-        {
+            string stringWithMostVowels = "";
             int maxVowelCount = 0;
-            string result = string.Empty;
-
-            foreach (string str in strings)
+            for (int i = 0; i < rows; i++)
             {
-                int vowelCount = CountVowels(str);
-                if (vowelCount > maxVowelCount)
+                for (int j = 0; j < columns; j++)
                 {
-                    maxVowelCount = vowelCount;
-                    result = str;
+                    int currentVowelCount = CountVowels(strings[i, j]);
+                    if (currentVowelCount > maxVowelCount)
+                    {
+                        maxVowelCount = currentVowelCount;
+                        stringWithMostVowels = strings[i, j];
+                    }
                 }
             }
 
-            return result;
+            Console.WriteLine(
+                $"\nString with the most vowels: \"{stringWithMostVowels}\" with {maxVowelCount} vowels.");
         }
 
-        private static int CountVowels(string str)
+        static int CountVowels(string input)
         {
             int count = 0;
-            foreach (char c in str)
+            foreach (char c in input.ToLower())
             {
-                if ("aeiouAEIOU".IndexOf(c) >= 0)
+                if ("aeiou".Contains(c))
                 {
                     count++;
                 }

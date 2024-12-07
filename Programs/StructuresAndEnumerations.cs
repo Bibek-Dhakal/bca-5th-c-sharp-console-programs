@@ -1,23 +1,21 @@
-﻿using System;
-
-namespace BCA_5th_Sem_lab_work_console_programs.Programs
+﻿namespace BCA_5th_Sem_lab_work_console_programs.Programs
 {
     struct Book
     {
-        public string Title;
-        public string Author;
-        public int Pages;
+        private string _title;
+        private string _author;
+        private int _pages;
 
         public Book(string title, string author, int pages)
         {
-            Title = title;
-            Author = author;
-            Pages = pages;
+            _title = title;
+            _author = author;
+            _pages = pages;
         }
 
         public void Display()
         {
-            Console.WriteLine($"Title: {Title}, Author: {Author}, Pages: {Pages}");
+            Console.WriteLine($"Title: {_title}, Author: {_author}, Pages: {_pages}");
         }
     }
 

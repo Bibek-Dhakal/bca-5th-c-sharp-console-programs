@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BCA_5th_Sem_lab_work_console_programs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1435a9f21682220228ae73e7f4b6e810819ca59")]
 [assembly: System.Reflection.AssemblyProductAttribute("BCA_5th_Sem_lab_work_console_programs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BCA_5th_Sem_lab_work_console_programs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
